@@ -55,6 +55,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ToDoManager.Core\TaskItem.cs" />
+    <Compile Include="ToDoManager.Core\TaskService.cs" />
+    <Compile Include="ToDoManager.Core\User.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
