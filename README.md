@@ -13,13 +13,12 @@
 ## 🏗️ Структура проєкту
 
 
-
 ## 👥 Команда
 | Роль | Ім’я | Відповідальність |
 |------|------|------------------|
-| Team Lead / Backender | Mykha | Архітектура, Git Flow, логіка |
-| Frontender | ... | WinForms UI |
-| Tester | ... | Тестування і QA |
+| Team Lead / Backender | Mykhailo Yevchuk | Архітектура, Git Flow, логіка |
+| Frontender | Denis Dynovskiy | WinForms UI |
+| Tester | Illia Shevtsov | Тестування і QA |
 
 ## 🌿 Git Flow
 - main → стабільна версія
@@ -32,4 +31,4 @@
 - C# (.NET WinForms)
 - MSTest (Unit Testing)
 - GitHub + Git Flow
-- Trello + Clockify (планування)
+- Trello + Clockify
