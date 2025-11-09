@@ -22,14 +22,8 @@ namespace ToDoManager.UI
                 return;
             }
 
-            var newTask = new TaskItem
-            {
-                Title = textBox1.Text,
-                Description = textBox2.Text,
-                IsCompleted = checkBox1.Checked
-            };
-
-            _taskService.Add(newTask);
+            var newTask = _taskService.Create(textBox1.Text, textBox2.Text);
+            newTask.IsCompleted = checkBox1.Checked;
 
             MessageBox.Show("Задачу успішно додано!", "Успіх", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.DialogResult = DialogResult.OK;
