@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ToDoManager.Core;
+using ToDoManager.UI;
 
 namespace ToDoManager
 {
@@ -16,7 +18,9 @@ namespace ToDoManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            var userService = new UserService();
+            Application.Run(new LoginForm(userService));
         }
     }
 }
